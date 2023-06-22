@@ -1,0 +1,93 @@
+body{
+    
+    background-color: rgb(38, 50, 221);
+  
+}
+.box{
+    background-color: rgb(47, 209, 32) ;
+}
+.container{
+    height: 400px;
+    width: 700px;
+  
+    border:  1px solid black;
+margin-top: 200px;
+margin-left: 500px;
+background-color:  white;
+}
+
+.button{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+#reset:hover{
+    box-shadow: 5px 5px 10px gray;
+   }
+#reset{
+    background-color: rgb(159, 170, 32);
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+
+}
+#start:hover{
+    box-shadow: 5px 5px 10px gray;
+   }
+#start{
+    background:yellow;
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+
+}
+#pause:hover{
+    box-shadow: 5px 5px 10px gray;
+   }
+#pause{
+    background: red;
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+
+}
+#cast:hover{
+ box-shadow: 5px 5px 10px gray;
+}
+#cast{
+    background-color:palevioletred;
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+
+}
+
+
+.child1{
+    width: 500px;
+    height: 100px;
+    margin-left: 100px;
+    background-color: white;
+    box-shadow: 3px 3px 10px gray;
+}
+.child1:hover{
+    box-shadow: 5px 5px 10px gray;
+}
+.btn{
+    margin-top: 40px;
+    display: flex;
+    margin-left: 60px;
+    gap: 20px;
+   
+}
+.hi{
+width: 200px;
+height: 50px;
+margin-top: 30px;
+margin-left: 30px;
+background-color: aqua;
+}
+p{
+    font-size: 40px;
+}
